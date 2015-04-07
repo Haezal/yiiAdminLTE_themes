@@ -6,7 +6,5 @@
         <li><a href="<?php echo Yii::app()->createUrl('/') ?>"><i class="fa fa-home"></i> <span>Homepage</span></a></li>
         <li><a href="<?php echo Yii::app()->createUrl('/site/page?view=about') ?>"><i class="fa fa-info"></i> <span>About Us</span></a></li>
         <li><a href="<?php echo Yii::app()->createUrl('/site/contact') ?>"><i class="fa fa-envelope-o"></i> <span>Contact Us</span></a></li>
-        <li><a href="<?php echo Yii::app()->createUrl('/user/login') ?>"><i class="fa fa-lock"></i> <span>Login</span></a></li>
-        <li><a href="<?php echo Yii::app()->createUrl('/user/registration') ?>"><i class="fa fa-users"></i> <span>Register</span></a></li>
   <?php endif ?>
 </ul><!-- /.sidebar-menu -->
